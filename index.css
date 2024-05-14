@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.wellcome-image
+{
+    width: 70%;
+    aspect-ratio: 1/1;
+}
+.logo-mobile{
+    display: none;
+}
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-container {
+    background-color: #e9f8e5;
+    display: flex;
+    flex-direction: row;
+}
+
+.center-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.leaf-text {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.signup-main-div {
+    background-color: #fcfeff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.feild-div {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input-div {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #a4a5a6;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.SignUpBtn {
+    background-color: #73895d;
+    color: white;
+    width: 90%;
+    border: none;
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.social-icons>* {
+    margin: 15px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #73895d;
+}
+
+@media screen and (max-width: 944px) {
+    .main-container {
+        background-color: white;
+        flex-direction: column;
+    }
+    .center-css {
+        width: 100vw;
+        height: max-content;
+    }
+    .input-div {        
+        border-radius: 25px;
+        padding: 15px;
+    }
+    .SignUpBtn {
+        border-radius: 25px;
+        width: 100%;
+    }
+    .signup-main-div {
+        box-shadow: none;
+        padding-bottom: 20px;     
+    }
+    .logo-desktop{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px
+    }
+    .feild-div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
