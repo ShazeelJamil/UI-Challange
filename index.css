@@ -1,22 +1,28 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins-Reguler", "Poppins";
 }
-.wellcome-image
-{
+
+.wellcome-image {
     width: 70%;
     aspect-ratio: 1/1;
 }
-.logo-mobile{
+
+.logo-mobile {
     display: none;
 }
+
 input {
     border: none;
 }
 
 input:focus {
     outline: none;
+}
+
+.create-acc-heading {
+    font-weight: 500 !important;
 }
 
 .main-container {
@@ -35,7 +41,7 @@ input:focus {
 
 .leaf-text {
     font-size: 25px;
-    font-weight: 700;
+    font-family: Aladin;
 }
 
 .signup-main-div {
@@ -60,7 +66,7 @@ input:focus {
 }
 
 .label {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .input-div {
@@ -84,12 +90,25 @@ input:focus {
     border-radius: 20px;
 }
 
+.SignUpBtn:hover {
+    background-color: #53663f;
+}
+
 .social-icons>* {
     margin: 15px;
 }
 
+.social-icons>*:hover {
+    cursor: pointer;
+}
+
 .login-link {
     text-decoration: none;
+    color: #73895d;
+}
+
+.login-link:hover {
+    text-decoration: underline;
     color: #73895d;
 }
 
@@ -98,35 +117,47 @@ input:focus {
         background-color: white;
         flex-direction: column;
     }
+
     .center-css {
         width: 100vw;
         height: max-content;
     }
-    .input-div {        
+
+    .input-div {
         border-radius: 25px;
         padding: 15px;
     }
+
     .SignUpBtn {
         border-radius: 25px;
         width: 100%;
     }
+
     .signup-main-div {
         box-shadow: none;
-        padding-bottom: 20px;     
+        padding-bottom: 20px;
     }
-    .logo-desktop{
+
+    .logo-desktop {
         display: none;
     }
-    .logo-mobile{
+
+    .logo-mobile {
         display: block;
         display: flex;
         justify-content: center;
         margin-top: 10px;
         gap: 10px
     }
+
     .feild-div {
         width: 100%;
         margin-bottom: 10px;
     }
-    
+
+    .wellcome-image {
+        width: 65%;
+        aspect-ratio: 1/1;
+    }
+
 }
